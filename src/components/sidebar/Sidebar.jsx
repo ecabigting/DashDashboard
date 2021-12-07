@@ -1,5 +1,5 @@
 import React from 'react'
-import { Assessment, Group, InsertChart, LineStyle, MapRounded, Person, Receipt, ShowChart, StoreMallDirectory, Timeline, TrendingUp } from '@material-ui/icons'
+import { Assessment, ChatBubbleOutlineRounded, FeedbackOutlined, Group, InsertChart, LineStyle, MailOutline, MapRounded, Person, Receipt, ShowChart, StoreMallDirectory, Timeline, TrendingUp } from '@material-ui/icons'
 import "./sidebar.css"
 
 export default function Sidebar() {
@@ -52,15 +52,15 @@ export default function Sidebar() {
                     <h3 className="sidebarTitle">Notifications</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <Timeline className="sidebarIcon"/>
+                            <MailOutline className="sidebarIcon"/>
                             Mail
                         </li>
                         <li className="sidebarListItem">
-                            <TrendingUp className="sidebarIcon"/>
+                            <FeedbackOutlined className="sidebarIcon"/>
                             Feedback
                         </li>
                         <li className="sidebarListItem">
-                            <MapRounded className="sidebarIcon"/>
+                            <ChatBubbleOutlineRounded className="sidebarIcon"/>
                             Messages
                         </li>
                     </ul>
