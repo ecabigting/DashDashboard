@@ -3,6 +3,17 @@
     margin-top: 10px;
 }
 
-.mainpage{
+.mainpage {
     flex:4;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainLogo {
+    height: 45px;
+    margin-top: 5px;
+    object-fit: cover;
 }

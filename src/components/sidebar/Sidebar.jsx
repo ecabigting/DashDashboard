@@ -1,17 +1,20 @@
 import React from 'react'
 import { Assessment, ChatBubbleOutlineRounded, FeedbackOutlined, Group, InsertChart, LineStyle, MailOutline, MapRounded, Person, Receipt, ShowChart, StoreMallDirectory, Timeline, TrendingUp } from '@material-ui/icons'
 import "./sidebar.css"
+import { Link } from 'react-router-dom'
 
 export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Dashdashboard</h3>
+                    <h3 className="sidebarTitle">Dashdashboard</h3>              
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
+                            <Link to="/" className="link">
                             <LineStyle className="sidebarIcon"/>
                             Home
+                            </Link>
                         </li>
                         <li className="sidebarListItem">
                             <Timeline className="sidebarIcon"/>
@@ -31,12 +34,16 @@ export default function Sidebar() {
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <Person className="sidebarIcon"/>
-                            Users
+                            <Link to="/users" className="link">
+                                <Person className="sidebarIcon" />
+                                Users
+                            </Link>
                         </li>
                         <li className="sidebarListItem">
-                            <StoreMallDirectory  className="sidebarIcon"/>
-                            Products
+                            <Link to="/products" className="link">
+                                <StoreMallDirectory  className="sidebarIcon"/>
+                                Products
+                            </Link>                            
                         </li>
                         <li className="sidebarListItem">
                             <Receipt className="sidebarIcon"/>
