@@ -61,3 +61,17 @@ export const userData = [
     { id: 5, username: 'Glittering Warrior', avatar:"https://images.pexels.com/photos/8480667/pexels-photo-8480667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     ,email:"glitterqueen@gmail.com",status:"Active",transaction:"$951"},
   ];
+
+
+  export const productsList = [
+    { id: 1, name: 'Apple Airpods', img:"https://appletoolbox.com/wp-content/uploads/2019/10/Airpods-pro-3.jpg"
+    ,stock:"4",status:"Active",price:"$741"},
+    { id: 2, name: 'Black Kettle', img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3q7hidJQhZ8PSKSR-h7wPgHaJK%26pid%3DApi&f=1"
+    ,stock:"3",status:"Active",price:"$963"},
+    { id: 3, name: 'Blue Vase', img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.T-m6hac-61m7pUMsHhR5sgHaH8%26pid%3DApi&f=1"
+    ,stock:"1",status:"Pending",price:"$852"},
+    { id: 4, name: 'Shoes', img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Zb-PB_52gxeampXWYBkLBAHaE7%26pid%3DApi&f=1"
+    ,stock:"7",status:"Pending",price:"$753"},
+    { id: 5, name: 'Red Shirt', img:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.fkJI9BWF-UVwbvoNr-_3IAHaHa%26pid%3DApi&f=1"
+    ,stock:"6",status:"Active",price:"$951"},
+  ];
