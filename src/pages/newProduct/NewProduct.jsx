@@ -2,8 +2,8 @@ import "./newProduct.css"
 
 export default function NewProduct() {
     return (
-        <div>
-            
+        <div className="newProduct">
+            New Product
         </div>
     )
 }
