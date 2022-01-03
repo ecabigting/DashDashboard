@@ -49,6 +49,21 @@ export const userData = [
     },
   ];
 
+  export const productData = [
+    {
+        name: 'Oct',
+        "Sales": 222,
+    },
+    {
+        name: 'Nov',
+        "Sales": 777,
+    },
+    {
+        name: 'Dec',
+        "Sales": 444
+    },
+  ];
+
   export const userList = [
     { id: 1, username: 'Black Surfer', avatar:"https://images.pexels.com/photos/9267239/pexels-photo-9267239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     ,email:"blackqueen@surferbabes.com",status:"Active",transaction:"$741"},

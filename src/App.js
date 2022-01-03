@@ -25,7 +25,7 @@ function App() {
           <Route path="/createUser" element={<NewUser/>}/>
           <Route path="/products" element={<ProductList/>}/>
           <Route path="/product/:productId" element={<Product/>}/> 
-          <Route path="/createProduct" element={<NewProduct/>}/>
+          <Route path="/newproduct" element={<NewProduct/>}/>
         </Routes>
       </div>
     </Router>
