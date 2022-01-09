@@ -1,5 +1,5 @@
 import "./product.css"
-import { CalendarToday, EmailOutlined, PermIdentity, PhoneAndroidOutlined, PinDrop, Publish } from "@material-ui/icons"
+import { Publish } from "@material-ui/icons"
 import { Link } from "react-router-dom"
 import Chart from "../../components/chart/Chart"
 import { productData } from "../../dummydata"

@@ -6,6 +6,15 @@
     top:50px;
 }
 
+.linkDisabled {
+    color:rgb(179, 179, 179) !important;
+}
+
+.linkDisabled:hover {
+     background-color: transparent !important;
+     cursor: default;
+}
+
 .sidebarWrapper {
     padding:20px;
     color:#555;
